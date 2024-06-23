@@ -1,0 +1,126 @@
+/* Estilos Generales // General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-size: 22px;
+  background-color: #232323;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  font-family: Helvetica, sans-serif, Arial;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+
+.separador {
+  width: 235px;
+  border: 1px solid #232323;
+  margin: 33px;
+}
+
+/* Contenedor */
+
+#contenedor {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 3px solid black;
+  box-shadow: 0 10px 20px 0 #ffffff69;
+}
+
+/* Texto */
+.title-fire {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.text-fire {
+  font-size: 0.7rem;
+  color: white;
+}
+
+
+.titulo {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #F44336;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+.clave {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+#clave-generada {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 13px 0px;
+}
+
+/* Botón */
+
+.botones {
+  width: 74%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px 33px;
+  user-select: none;
+  cursor: pointer;
+  font-size: 0.5rem;
+  font-weight: bold;
+  background-color: #232323;
+  color: #ffffff;
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+
+}
+
+button:hover {
+  background-color: #dddddd;
+  color: #232323;
+  text-transform: uppercase;
+  border: 2px solid #dddddd;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  /* Aumenta el desplazamiento y la opacidad de la sombra */
+}
+
+button:active {
+  background-color: #04aa6d;
+  border: 1px solid#04AA6D;
+  color: #ffffff;
+
+}

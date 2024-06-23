@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Claves</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <hr class="separador">
+        <div class="titulo">
+            <h5>Generador de<br>Claves.</h5>
+        </div>
+        <hr class="separador">
+        <div class="clave">
+
+            <p>Nueva Clave generada:
+                <hr><br> <span id="clave-generada"></span> 
+            </p>
+
+            <button onclick="copiarElemento()">COPIAR</button>
+            <br>
+            <p style="font-size: 0.5rem; margin-top: 1%; text-align: center;">
+                recuerda guardarla en un sitio seguro</p>
+
+
+        </div>
+        <hr class="separador">
+        <div class="botones">
+            <button onclick="generarClave()">⛔ Generar Nueva Clave</button>
+            <br>
+            <button onclick="recargarPagina()">REINICIAR</button>
+        </div>
+        <hr class="separador">
+        <div>
+            <p style="font-size: 0.4rem; margin:3%; padding: 3%; text-align: center;">Realizado por Jairo Cárdenas 2024
+            </p>
+        </div>
+        
+    </div>
+
+    
+
+
+    <script src="app.js"></script>
+    <!-- Archivos SweetAlert2  -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
