@@ -5,7 +5,8 @@ Vista previa del Generador de Contraseñas.
 ![generador-de-contraseñas-segura-pc](https://github.com/user-attachments/assets/fc7ab6f6-b71e-49a2-9792-bc637c295586)
 
 ![generador-de-contraseñas-seguras-movil](https://github.com/user-attachments/assets/8f8e1bb6-2a81-411b-b124-e957f3fa9097)
-![generador-de-contraseñas-seguras-movil_2](https://github.com/user-attachments/assets/691b14e3-be26-425b-b00f-e0b76bde44ec)
+![generador-de-contraseñas-seguras-movil_2](https://github.com/user-attachments/assets/88dc2a7c-b985-450c-9399-e3bad57af953)
+
 
 ## Descripción
 El Generador de Contraseñas Fuertes es una herramienta interactiva diseñada para crear contraseñas únicas, seguras y resistentes a ataques. Permite a los usuarios generar contraseñas aleatorias al instante y copiarlas fácilmente al portapapeles. Este proyecto se desarrolló con el propósito de mejorar la seguridad en línea, proporcionando una solución sencilla pero eficaz.
