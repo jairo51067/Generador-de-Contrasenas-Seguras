@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self';"> -->
   <meta name="description"
     content="Descubre el generador de contraseñas más seguro y fácil de usar. Crea contraseñas únicas, fuertes y protegidas en segundos. ¡Optimiza la seguridad de tus cuentas hoy!">
   <meta name="keywords"
@@ -34,7 +35,7 @@
     <section class="clave" id="clave">
       <p id="nuevaClaveGenerada">Tu Nueva Contraseña</p>
       <span id="clave-generada"></span>
-      <button onclick="copiarElemento()">Copiar al Portapapeles</button>
+      <button id="botonCopiarPortapeles" onclick="copiarElemento()">Copiar al Portapapeles</button>
       <br>
       <h3>¡Protege tus cuentas! Guarda tu nueva contraseña en un lugar seguro, como un gestor de contraseñas.</h3>
     </section>
@@ -42,10 +43,11 @@
     <section class="botones">
       <div class="botones-generar">
         <img src="contrasena.gif" width="33px" height="33px">
-        <button onclick="generarClave()">Generar Contraseña</button>
+        <div style="display: flex; flex-direction: column; gap: 13px;">
+        <button id="botonGenerarContrasena" onclick="generarClave()">Generar Contraseña</button>
+        <button id="botonCambiarContrasena" onclick="generarClave()">Cambiar Contraseña</button>
+        <button id="botonEmpezarDeNuevo" onclick="recargarPagina()">Empezar de Nuevo</button>
       </div>
-
-      <button onclick="recargarPagina()">Empezar de Nuevo</button>
     </section>
 
     <footer>

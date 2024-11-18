@@ -1,15 +1,19 @@
 let claveGenerada = ""; // Variable global para almacenar la clave generada
 
 function generarClave() {
-  var caracteres = "0123456789/*-+%$?abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const caracteres = "0123456789!@#$%^&*()-_=+[]{}|;:',.<>?/abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var longitud = caracteres.length;
   var titlePrevio = document.getElementById("titlePrevio");
   var titleClaveGenerada = document.getElementById("nuevaClaveGenerada");
   var claveElemento = document.getElementById("clave");
+  var botonCopiarPortapeles = document.getElementById("botonCopiarPortapeles");
+  var botonEmpezarDeNuevo = document.getElementById("botonEmpezarDeNuevo");
+  var botonGenerarContrasena = document.getElementById("botonGenerarContrasena");
+  var botonCambiarContrasena = document.getElementById("botonCambiarContrasena");
 
   claveGenerada = ""; // Reiniciar la clave generada
 
-  while (claveGenerada.length < 9) {
+  while (claveGenerada.length < 12) {
     var indice = Math.floor(Math.random() * longitud);
     var caracter = caracteres.charAt(indice);
 
@@ -22,6 +26,10 @@ function generarClave() {
   document.getElementById("clave-generada").textContent = claveGenerada;
   titleClaveGenerada.style.display = "block";
   claveElemento.style.background = "#000";
+  botonCopiarPortapeles.style.display = "block";
+  botonEmpezarDeNuevo.style.display = "block";
+  botonCambiarContrasena.style.display = "block";
+  botonGenerarContrasena.style.display = "none";
 }
 
 // Función para recargar la página
@@ -68,7 +76,6 @@ function copiarElemento() {
     recargarPagina();
   });
 }
-
 
 
 // function generarClave() {
