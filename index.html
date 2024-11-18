@@ -2,54 +2,62 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <title>Generador de Claves</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Descubre el generador de contraseñas más seguro y fácil de usar. Crea contraseñas únicas, fuertes y protegidas en segundos. ¡Optimiza la seguridad de tus cuentas hoy!">
+  <meta name="keywords"
+    content="Generador de contraseñas, Crear contraseñas seguras, Contraseñas fuertes, Seguridad en línea, Claves únicas, Gestor de contraseñas, Herramienta de generación de contraseñas, Contraseñas al instante, Protección de cuentas, Seguridad informática">
+  <meta name="author" content="Jairo Cárdenas">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Generador de Contraseñas Fuertes | Crea Claves Seguras">
+  <meta property="og:description" content="Protege tus cuentas con nuestro generador de contraseñas seguras y únicas">
+  <link rel="stylesheet" href="styles.css">
+  <title>Generador de Contraseñas Fuertes | Crea Claves Seguras Online</title>
+  <!-- Archivos Alertify.js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
 </head>
 
 <body>
-    <div id="contenedor">
-        <hr class="separador">
-        <div class="titulo">
-            <h5>Generador de<br>Claves.</h5>
-        </div>
-        <hr class="separador">
-        <div class="clave">
+  <div id="contenedor">
+    <header class="titulo">
+      <h1>Generador de Contraseñas Seguras</h1>
+    </header>
 
-            <p>Nueva Clave generada:
-                <hr><br> <span id="clave-generada"></span> 
-            </p>
+    <section id="titlePrevio" class="title-previo">
+      <h2>Tu Nueva Contraseña</h2>
+      <img src="clave.gif" alt="Generador de contraseñas seguras" width="150" height="150">
+    </section>
 
-            <button onclick="copiarElemento()">COPIAR</button>
-            <br>
-            <p style="font-size: 0.5rem; margin-top: 1%; text-align: center;">
-                recuerda guardarla en un sitio seguro</p>
+    <section class="clave" id="clave">
+      <p id="nuevaClaveGenerada">Tu Nueva Contraseña</p>
+      <span id="clave-generada"></span>
+      <button onclick="copiarElemento()">Copiar al Portapapeles</button>
+      <br>
+      <h3>¡Protege tus cuentas! Guarda tu nueva contraseña en un lugar seguro, como un gestor de contraseñas.</h3>
+    </section>
 
+    <section class="botones">
+      <div class="botones-generar">
+        <img src="contrasena.gif" width="33px" height="33px">
+        <button onclick="generarClave()">Generar Contraseña</button>
+      </div>
 
-        </div>
-        <hr class="separador">
-        <div class="botones">
-            <button onclick="generarClave()">⛔ Generar Nueva Clave</button>
-            <br>
-            <button onclick="recargarPagina()">REINICIAR</button>
-        </div>
-        <hr class="separador">
-        <div>
-            <p style="font-size: 0.4rem; margin:3%; padding: 3%; text-align: center;">Realizado por Jairo Cárdenas 2024
-            </p>
-        </div>
-        
-    </div>
+      <button onclick="recargarPagina()">Empezar de Nuevo</button>
+    </section>
 
-    
+    <footer>
+      <p style="font-size: 1rem; text-align: center;">Realizado por Jairo Cárdenas 2024
+      </p>
+    </footer>
 
+  </div>
 
-    <script src="app.js"></script>
-    <!-- Archivos SweetAlert2  -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="app.js"></script>
+  <!-- Archivos SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
