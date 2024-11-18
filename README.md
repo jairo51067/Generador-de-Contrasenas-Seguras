@@ -2,7 +2,8 @@
 [Ver el proyecto en acción](URL_DEL_PROYECTO)
 
 Vista previa del Generador de Contraseñas.
-![generador-de-contrasenas-seguras](https://github.com/user-attachments/assets/0030b002-06ed-4d23-9cac-3ad2811755dd)
+![generador-de-contraseñas-seguras](https://github.com/user-attachments/assets/7970db94-0ced-4c7f-8f94-4fa7a2a40259)
+
 
 
 ## Descripción
