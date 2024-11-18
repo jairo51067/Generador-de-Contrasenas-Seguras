@@ -1,7 +1,7 @@
 # Generador de Contraseñas Fuertes
 [Ver el proyecto en acción](URL_DEL_PROYECTO)
 
-![Vista previa del Generador de Contraseñas](URL_DE_LA_IMAGEN_DEL_PROYECTO)
+![Vista previa del Generador de Contraseñas]([URL_DE_LA_IMAGEN_DEL_PROYECTO](https://github.com/user-attachments/assets/0030b002-06ed-4d23-9cac-3ad2811755dd))
 ![generador-de-contrasenas-seguras](https://github.com/user-attachments/assets/0030b002-06ed-4d23-9cac-3ad2811755dd)
 
 
